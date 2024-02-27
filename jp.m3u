@@ -1,9 +1,13 @@
-#EXTM3U url-tvg="http://epg.ra1n.lol/jp.xml,https://epg.ra1n.lol/jpkansai.xml" tvg-shift=0 m3uautoload=1
+#EXTM3U url-tvg="http://epg.ra1n.lol/jp.xml,https://epg.ra1n.lol/fullregion.xml" tvg-shift=0 m3uautoload=1
 
-#EXTINF:-1 group-title="Information" ,paypal.me/Tieptran1970 | Donate
-http://google.com
-#EXTINF:-1 group-title="Information" ,TEST LIST! report issue in github
+
+#EXTINF:-1 group-title="Information" ,We need donations to maintain the host!
 https://google.com
+#EXTINF:-1 group-title="Information" ,Donate: https://ko-fi.com/dinhluong
+http://google.com
+#EXTINF:-1 group-title="Information" ,Test channels are not stable! Report them in Issue if faced any error.
+http://google.com
+
 
 #EXTINF:-1 group-title="Tokyo" tvg-id="nhkg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/NHK%E7%B7%8F%E5%90%88%E3%83%AD%E3%82%B42020-.png", NHK G 
 http://jp.vthanhnetwork.com/NHK_G/index.m3u8
@@ -42,7 +46,7 @@ http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd08
 
 
 #Kansai
-#EXTINF:-1 group-title="Osaka" tvg-id="nhkgosaka" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/NHK%E7%B7%8F%E5%90%88%E3%83%AD%E3%82%B42020-.png", NHK G Osaka
+#EXTINF:-1 group-title="Osaka" tvg-id="nhkg_osaka" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/NHK%E7%B7%8F%E5%90%88%E3%83%AD%E3%82%B42020-.png", NHK G Osaka
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx06
 #EXTINF:-1 group-title="Osaka" tvg-id="mbs" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Mainichi_Broadcasting_System_logo.svg/2560px-Mainichi_Broadcasting_System_logo.svg.png", MBS
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx01
@@ -50,7 +54,7 @@ http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx01
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx02
 #EXTINF:-1 group-title="Osaka" tvg-id="kansaitv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Ktv_logo.svg/2560px-Ktv_logo.svg.png", Kansai TV
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx03
-#EXTINF:-1 group-title="Osaka" tvg-id="ytv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Yomiuri_Telecasting_Corporation_Logo.svg/2560px-Yomiuri_Telecasting_Corporation_Logo.svg.png", Yomiuri TV
+#EXTINF:-1 group-title="Osaka" tvg-id="yomiuritv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Yomiuri_Telecasting_Corporation_Logo.svg/2560px-Yomiuri_Telecasting_Corporation_Logo.svg.png", Yomiuri TV
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx04
 #EXTINF:-1 group-title="Osaka" tvg-id="tvosaka" tvg-logo="https://seeklogo.com/images/T/tv-osaka-logo-8BA164D52E-seeklogo.com.png", TV Osaka
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gx05
@@ -64,9 +68,9 @@ http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs11&isp=10&b
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs01&isp=10&bind=0&uin=159413&playseek=0
 #EXTINF:-1 group-title="BS" tvg-id="bsntv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/BS4_logo.svg/1200px-BS4_logo.svg.png", BS NTV
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs02&isp=10&bind=0&uin=159413&playseek=0
-#EXTINF:-1 group-title="BS" tvg-id="bsasahi" tvg-logo="https://company.tv-asahi.co.jp/saiyo/group/img/company/logo-bsasahi.png", BS Asahi  
+#EXTINF:-1 group-title="BS" tvg-id="bsasahi" tvg-logo="https://www.lyngsat.com/logo/tv/bb/bs_asahi.png", BS Asahi  
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs03&isp=10&bind=0&uin=159413&playseek=0
-#EXTINF:-1 group-title="BS" tvg-id="bstbs" tvg-logo="https://bs.tbs.co.jp/resources/images/logo1.svg", BS TBS
+#EXTINF:-1 group-title="BS" tvg-id="bstbs" tvg-logo="https://www.lyngsat.com/logo/tv/bb/bs-tbs-jp.png", BS TBS
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs04&isp=10&bind=0&uin=159413&playseek=0
 #EXTINF:-1 group-title="BS" tvg-id="bstvtokyo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/BS_TV_Tokyo_%28Japanese%29_2023.svg/2560px-BS_TV_Tokyo_%28Japanese%29_2023.svg.png", BS TV Tokyo
 http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs05&isp=10&bind=0&uin=159413&playseek=0
@@ -102,9 +106,23 @@ http://jp.vthanhnetwork.com/BS11/index.m3u8
 #EXTINF:-1 group-title="CS" tvg-id="at-x" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/AT-X_logo.svg/2560px-AT-X_logo.svg.png", AT-X
 http://jp.vthanhnetwork.com/AT-X/index.m3u8
 
-#EXTINF:-1 group-title="Test" tvg-id="teletama" tvg-logo="https://www.teletama-app.jp/view/images/tvs.png", TVS
+
+
+#EXTINF:-1 group-title="Test" tvg-id="tuf" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Tuf_logo.svg/1280px-Tuf_logo.svg.png", TUF (Not Stable)
+http://for-testonly.ra1n.lol/tuf/index.m3u8
+#EXTINF:-1 group-title="Test" tvg-id="ishikawatv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Itc_logo.svg/1920px-Itc_logo.svg.png", Ishikawa TV (Not Stable)
+http://for-testonly.ra1n.lol/ishikawatv/index.m3u8
+#EXTINF:-1 group-title="Test" tvg-id="ntv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Nippon_TV_logo_2014.svg/1920px-Nippon_TV_logo_2014.svg.png", NTV (Not Stable)
+http://for-testonly.ra1n.lol/ntv2/index.m3u8
+#EXTINF:-1 group-title="Test" tvg-id="tsb" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Tsb_logo_ja.svg/170px-Tsb_logo_ja.svg.png",TSB (Not Stable)
+http://for-testonly.ra1n.lol/TSB/index.m3u8
+#EXTINF:-1 group-title="Test" tvg-id="tvsaitama" tvg-logo="https://www.teletama-app.jp/view/images/tvs.png", TVS (Not Stable)
 http://for-testonly.ra1n.lol/teletama/index.m3u8
-#EXTINF:-1 group-title="Test" tvg-id="bs11" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/BS11_logo.svg/2560px-BS11_logo.svg.pngion_logo_%28rainbow%29.svg.png", BS11 HD (Test)
+#EXTINF:-1 group-title="Test" tvg-id="tokyomx" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Tokyo_metropolitan_television_logo_%28rainbow%29.svg/2560px-Tokyo_metropolitan_television_logo_%28rainbow%29.svg.png", TOKYO MX1 (Not Stable)
+http://for-testonly.ra1n.lol/mx1/index.m3u8
+#EXTINF:-1 group-title="Test" tvg-id="bs11" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/BS11_logo.svg/2560px-BS11_logo.svg.pngion_logo_%28rainbow%29.svg.png", BS11 HD (Not Stable)
 http://for-testonly.ra1n.lol/bs11/index.m3u8
-#EXTINF:-1 group-title="Test" tvg-id="at-x" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/AT-X_logo.svg/2560px-AT-X_logo.svg.png", AT-X HD (Test)
+#EXTINF:-1 group-title="Test" tvg-id="at-x" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/AT-X_logo.svg/2560px-AT-X_logo.svg.png", AT-X HD (Not Stable)
 http://for-testonly.ra1n.lol/at-x/index.m3u8
+
+
